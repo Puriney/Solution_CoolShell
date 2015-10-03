@@ -1,0 +1,13 @@
+SHA1 implement in `node`。 
+
+    $ node
+    > var crypto = require('crypto')
+    > var sha1 = function(str) { 
+    > return crypto.creatHash('sha1').update(str, 'ascii').digest('hex'); 
+    > }
+    > sha1("anytext")    
+
+https://class.coursera.org/startup-001/lecture/181
+
+57138642
+953172864

@@ -1,0 +1,104 @@
+openssl enc -aes-128-cbc -a -d -pass pass:???
+
+1. The program can be called either as openssl ciphername or openssl enc -ciphername
+2. -a : base64 process the data. This means that if encryption is taking place the data is base64 encoded after encryption. If decryption is set then the input data is base64 decoded before being decrypted.
+3. -d decrypt the intput data
+4. -pass arg
+the password source. For more information about the format of arg see the PASS PHRASE ARGUMENTS section in openssl(1).
+pass:password
+
+??? should be our password of interest. 
+
+zWp8LGn01wxJ7
+
+LDR:
+T, b, H, V, h, 3, o, g, P, W, F, L, u, A, f, G, r, m, 1, x, J, 7, w, e, 0, i, Q, Y, n, Z, 8, K, v, q, k, 9, y, 5, C, N, B, D, 2, 4, U, l, c, p, I, E, M, a, j, 6, S, R, O, X, s, d, 
+z, 
+t
+
+LRD:
+T, V, H, o, 3, h, P, g, b, F, f, A, u, m, r, 7, J, x, e, w, 1, Y, Q, i, 0, Z, n, G, L, K, y, 9, k, q, v, N, D, B, C, 5, 4, c, l, U, 2, 8, E, I, R, S, 6, j, d, s, X, O, a, M, p, W, 
+t, 
+z
+---
+T, b, H, V, h, 3, o, g, P, 
+W, 
+F, L, u, A, f, G, r, m, 1, x, J, 7, w, e, 0, i, Q, Y, n, Z, 8, K, v, q, k, 9, y, 5, C, N, B, D, 2, 4, U, l, c, p, I, E, M, a, j, 6, S, R, O, X, s, d, 
+
+T, V, H, o, 3, h, P, g, b, 
+F, f, A, u, m, r, 7, J, x, e, w, 1, Y, Q, i, 0, Z, n, G, L, K, y, 9, k, q, v, N, D, B, C, 5, 4, c, l, U, 2, 8, E, I, R, S, 6, j, d, s, X, O, a, M, p, 
+W, 
+----
+	T, b, H, V, h, 3, o, g, P, 
+	T, V, H, o, 3, h, P, g, b,
+----
+	F, L, u, A, f, G, r, m, 1, x, J, 7, w, e, 0, i, Q, Y, n, Z, 8, K, v, q, k, 9, y, 5, C, N, B, D, 2, 4, U, l, c, 
+	p, 
+	I, E, M, a, j, 6, S, R, O, X, s, d,
+	
+	F, f, A, u, m, r, 7, J, x, e, w, 1, Y, Q, i, 0, Z, n, G, L, K, y, 9, k, q, v, N, D, B, C, 5, 4, c, l, U, 2, 8, 
+	E, I, R, S, 6, j, d, s, X, O, a, M, 	
+	p, 
+----
+		F, L, u, A, f, G, r, m, 1, x, J, 7, w, e, 0, i, Q, Y, n, Z, 
+		8, 
+		K, v, q, k, 9, y, 5, C, N, B, D, 2, 4, U, l, c,
+
+		F, f, A, u, m, r, 7, J, x, e, w, 1, Y, Q, i, 0, Z, n, G, L, 
+		K, y, 9, k, q, v, N, D, B, C, 5, 4, c, l, U, 2, 
+		8, 
+----
+			F, 
+			L, 
+			u, A, f, G, r, m, 1, x, J, 7, w, e, 0, i, Q, Y, n, Z, 
+			
+			F, 
+			f, A, u, m, r, 7, J, x, e, w, 1, Y, Q, i, 0, Z, n, G, 
+			L, 
+----
+				u, A, f, 
+				G, 
+				r, m, 1, x, J, 7, w, e, 0, i, Q, Y, n, Z, 
+				
+				f, A, u, 
+				m, r, 7, J, x, e, w, 1, Y, Q, i, 0, Z, n, 
+				G, 
+----
+					r, m, 1, x, J, 7, w, e, 0, i, Q, Y, 
+					n, 
+					Z, 
+					m, r, 7, J, x, e, w, 1, Y, Q, i, 0, 
+					Z, 
+					n, 
+----
+						r, m, 1, x, J, 7, w, e, 
+						0, 
+						i, Q, Y, 
+						m, r, 7, J, x, e, w, 1, 
+						Y, Q, i, 
+						0, 
+----
+							r, m, 
+							1, 
+							x, J, 7, w, e, 
+							m, r, 
+							7, J, x, e, w, 
+							1, 
+----
+								x, J, 7, 
+								w, 
+								e, 
+								7, J, x, 
+								e, 
+								w, 
+----
+								x, 
+								J, 7, 
+								
+								7, J, 
+								x, 
+
+
+
+
+

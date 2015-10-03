@@ -1,0 +1,63 @@
+http://en.wikipedia.org/wiki/Hello_world
+-----------------------------------------
+
+While small test programs existed since the development of programmable computers, the tradition of using the phrase "Hello, world!" as a test message was influenced by an example program in the seminal book The C Programming Language. The example program from that book prints "hello, world" (without capital letters or exclamation mark), and was inherited from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, Programming in C: A Tutorial, which contains the first known version:
+
+ main()
+ {
+        printf("hello world");
+ }
+
+
+
+
+
+http://en.wikipedia.org/wiki/The_C_Programming_Language_(book)
+--------------------------------------------------------------
+
+The C Programming Language (sometimes referred to as K&R, after its authors' initials) is a well-known computer programming book written by Brian Kernighan and Dennis Ritchie. 
+
+The first edition of the book, published in 1978, was the first widely available book on the C programming language.
+
+The version of C described in this book is sometimes referred to as K&R C (after the book's authors), often to distinguish this early version from the later version of C standardized as ANSI C.
+
+In 1988, the second edition of the book was published, updated to cover the changes to the C programming language resulting from the new ANSI C standard, particularly with the inclusion of reference material on standard libraries. The second edition (and as of 2014, the most recent edition) of the book has since been translated into over 20 languages. 
+
+
+
+
+
+
+http://en.wikipedia.org/wiki/ANSI_C
+-----------------------------------
+
+ANSI C, also known as C89 and C90 depending on the year of ratification, refers to the family of successive standards published by the American National Standards Institute (ANSI) for the C programming language. Software developers writing in C are encouraged to conform to the standards, as doing so aids portability between compilers.
+
+
+
+
+
+
+http://en.wikipedia.org/wiki/C_(programming_language)
+----------------------------------------------------
+
+C has directly or indirectly influenced many later languages such as C#, D, Go, Java, JavaScript, Limbo, LPC, Perl, PHP, Python, and Unix's C Shell. The most pervasive influence has been syntactical: all of the languages mentioned combine the statement and (more or less recognizably) expression syntax of C with type systems, data models and/or large-scale program structures that differ from those of C, sometimes radically.
+
+Several C or near-C interpreters exist, including Ch and CINT, which can also be used for scripting.
+
+When object-oriented languages became popular, C++ and Objective-C were two different extensions of C that provided object-oriented capabilities. Both languages were originally implemented as source-to-source compilers; source code was translated into C, and then compiled with a C compiler.
+
+
+
+/***
+ *    ██████╗-███████╗███╗---██╗███╗---██╗██╗███████╗----██████╗-██╗████████╗-██████╗██╗--██╗██╗███████╗
+ *    ██╔══██╗██╔════╝████╗--██║████╗--██║██║██╔════╝----██╔══██╗██║╚══██╔══╝██╔════╝██║--██║██║██╔════╝
+ *    ██║--██║█████╗--██╔██╗-██║██╔██╗-██║██║███████╗----██████╔╝██║---██║---██║-----███████║██║█████╗--
+ *    ██║--██║██╔══╝--██║╚██╗██║██║╚██╗██║██║╚════██║----██╔══██╗██║---██║---██║-----██╔══██║██║██╔══╝--
+ *    ██████╔╝███████╗██║-╚████║██║-╚████║██║███████║----██║--██║██║---██║---╚██████╗██║--██║██║███████╗
+ *    ╚═════╝-╚══════╝╚═╝--╚═══╝╚═╝--╚═══╝╚═╝╚══════╝----╚═╝--╚═╝╚═╝---╚═╝----╚═════╝╚═╝--╚═╝╚═╝╚══════╝
+ *    --------------------------------------------------------------------------------------------------
+ */
+
+
+next level: DennisRitchie.html
